@@ -11,6 +11,9 @@ from pygments.token import Keyword, Name, Comment, String, Error, Text, \
     Number, Operator, Generic, Whitespace, Punctuation, Other, Literal
 
 class UPSUDStyle(Style):
+    """
+    A style based on the University Paris Sud XI color scheme.
+    """
 
     background_color = "#ffffff"
     highlight_color  = "#49483e"
@@ -19,7 +22,7 @@ class UPSUDStyle(Style):
         # No corresponding class for the following:
         Text:                   "#252525"            , # class:  ''
         Whitespace:             ""                   , # class: 'w'
-        Error:                  "#960050 bg:#1e0010" , # class: 'err'
+        Error:                  ""                   , # class: 'err'
         Other:                  ""                   , # class 'x'
 
         Comment:                "#888a85"            , # class: 'c'
