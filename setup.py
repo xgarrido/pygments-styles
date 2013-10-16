@@ -17,5 +17,6 @@ setup(
     entry_points     = '''
     [pygments.styles]
     upsud = pygments_styles.upsud:UPSUDStyle
+    snemo = pygments_styles.snemo:SNEMOStyle
     '''
     )
