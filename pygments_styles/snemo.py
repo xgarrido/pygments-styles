@@ -15,7 +15,7 @@ class SNEMOStyle(Style):
      A style for SuperNEMO software code
 
     """
-#4066B3
+
     background_color = "#ffffff"
     highlight_color  = "#49483e"
 
